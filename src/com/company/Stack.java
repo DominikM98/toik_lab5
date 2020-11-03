@@ -27,6 +27,5 @@ public class Stack implements StackOperations{
     @Override
     public void push(String item) {
         list.add(0,item);
-        System.out.println("Do stosu dodano: "+item);
     }
 }
